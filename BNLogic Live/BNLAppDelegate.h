@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMDrawerController.h"
 
 @interface BNLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MMDrawerController *drawController;
+
 
 @end

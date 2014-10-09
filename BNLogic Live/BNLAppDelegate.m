@@ -7,12 +7,43 @@
 //
 
 #import "BNLAppDelegate.h"
+#import "BNLMenuViewController.h"
+#import "BNLLoginViewController.h"
+#import "MMDrawerVisualState.h"
+
 
 @implementation BNLAppDelegate
+
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"BNLogicLiveModel"];
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    BNLMenuViewController *menuController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MenuViewControllerID"];
+    BNLLoginViewController *loginController = [mainStoryboard instantiateViewControllerWithIdentifier:@"DataViewControllerID"];
+
+    self.drawController = [[MMDrawerController alloc] initWithCenterViewController:loginController leftDrawerViewController:menuController];
+
+    [self.drawController setMaximumLeftDrawerWidth:240.0];
+
+    [self.drawController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+
+    [self.drawController setDrawerVisualStateBlock:[MMDrawerVisualState slideAndScaleVisualStateBlock]];
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:self.drawController];
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:15/255.0 green:15/255.0 blue:15/255.0 alpha:1.0]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Light" size:18.0]}];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							

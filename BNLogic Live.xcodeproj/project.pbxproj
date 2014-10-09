@@ -14,14 +14,35 @@
 		541BEE7D19C9F375001D6971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEE7C19C9F375001D6971 /* main.m */; };
 		541BEE8119C9F375001D6971 /* BNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEE8019C9F375001D6971 /* BNLAppDelegate.m */; };
 		541BEE8419C9F375001D6971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541BEE8219C9F375001D6971 /* Main.storyboard */; };
-		541BEE8719C9F375001D6971 /* BNLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEE8619C9F375001D6971 /* BNLFirstViewController.m */; };
-		541BEE8A19C9F375001D6971 /* BNLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEE8919C9F375001D6971 /* BNLSecondViewController.m */; };
 		541BEE8C19C9F375001D6971 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541BEE8B19C9F375001D6971 /* Images.xcassets */; };
 		541BEE9319C9F375001D6971 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541BEE9219C9F375001D6971 /* XCTest.framework */; };
 		541BEE9419C9F375001D6971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541BEE7019C9F375001D6971 /* Foundation.framework */; };
 		541BEE9519C9F375001D6971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541BEE7419C9F375001D6971 /* UIKit.framework */; };
 		541BEE9D19C9F375001D6971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 541BEE9B19C9F375001D6971 /* InfoPlist.strings */; };
 		541BEE9F19C9F375001D6971 /* BNLogic_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEE9E19C9F375001D6971 /* BNLogic_LiveTests.m */; };
+		541BEEAD19C9F4DF001D6971 /* BNLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEAC19C9F4DF001D6971 /* BNLLoginViewController.m */; };
+		541BEEB119CA02D1001D6971 /* BNLActiveLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEB019CA02D1001D6971 /* BNLActiveLogViewController.m */; };
+		541BEEB419CA0303001D6971 /* BNLKeyLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEB319CA0303001D6971 /* BNLKeyLogViewController.m */; };
+		541BEEB719CA0329001D6971 /* BNLSubjectLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEB619CA0329001D6971 /* BNLSubjectLogViewController.m */; };
+		541BEEBA19CB7D14001D6971 /* BNLLoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEB919CB7D14001D6971 /* BNLLoginData.m */; };
+		541BEEBE19CB7ED3001D6971 /* BNLActiveLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEBD19CB7ED3001D6971 /* BNLActiveLogData.m */; };
+		541BEEC119CB7EFF001D6971 /* BNLKeyLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */; };
+		541BEEC419CB7F27001D6971 /* BNLSubjectLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */; };
+		5446388B19E433620065DF2E /* BNLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446388A19E433620065DF2E /* BNLTabBarController.m */; };
+		545D1B5B19D4B13C001612C2 /* BNLActiveLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D1B5A19D4B13C001612C2 /* BNLActiveLogCell.m */; };
+		545D1B5E19D4B1BE001612C2 /* BNLKeyLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D1B5D19D4B1BE001612C2 /* BNLKeyLogCell.m */; };
+		545D1B6119D4B1E4001612C2 /* BNLSubjectLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D1B6019D4B1E4001612C2 /* BNLSubjectLogCell.m */; };
+		549DE55C19DDE931001872CB /* BNLRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE55B19DDE931001872CB /* BNLRecord.m */; };
+		549DE55F19DDEABE001872CB /* ActiveLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE55E19DDEABE001872CB /* ActiveLog.m */; };
+		549DE56219DDEABF001872CB /* KeyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE56119DDEABF001872CB /* KeyLog.m */; };
+		549DE56519DDEABF001872CB /* SubjectLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE56419DDEABF001872CB /* SubjectLog.m */; };
+		549DE56819DDEABF001872CB /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE56719DDEABF001872CB /* Login.m */; };
+		549DE56C19DDF41C001872CB /* BNLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DE56B19DDF41C001872CB /* BNLSessionManager.m */; };
+		54A0DB2B19DB44740001ACCF /* AFMMRecordResponseSerializer in Resources */ = {isa = PBXBuildFile; fileRef = 54A0DB2A19DB44740001ACCF /* AFMMRecordResponseSerializer */; };
+		54A0DB2E19DB47AA0001ACCF /* BNLDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54A0DB2C19DB47AA0001ACCF /* BNLDataModel.xcdatamodeld */; };
+		54A0DB3019DC529B0001ACCF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A0DB2F19DC529B0001ACCF /* CoreData.framework */; };
+		54F1978F19DF31C90046F998 /* BNLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F1978E19DF31C90046F998 /* BNLMenuViewController.m */; };
+		EBCE75AC1FC269DE905B3772 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4391DD68EAB9807943BB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +67,57 @@
 		541BEE7F19C9F375001D6971 /* BNLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLAppDelegate.h; sourceTree = "<group>"; };
 		541BEE8019C9F375001D6971 /* BNLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLAppDelegate.m; sourceTree = "<group>"; };
 		541BEE8319C9F375001D6971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		541BEE8519C9F375001D6971 /* BNLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLFirstViewController.h; sourceTree = "<group>"; };
-		541BEE8619C9F375001D6971 /* BNLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLFirstViewController.m; sourceTree = "<group>"; };
-		541BEE8819C9F375001D6971 /* BNLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLSecondViewController.h; sourceTree = "<group>"; };
-		541BEE8919C9F375001D6971 /* BNLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLSecondViewController.m; sourceTree = "<group>"; };
 		541BEE8B19C9F375001D6971 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		541BEE9119C9F375001D6971 /* BNLogic LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BNLogic LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		541BEE9219C9F375001D6971 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		541BEE9A19C9F375001D6971 /* BNLogic LiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNLogic LiveTests-Info.plist"; sourceTree = "<group>"; };
 		541BEE9C19C9F375001D6971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		541BEE9E19C9F375001D6971 /* BNLogic_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLogic_LiveTests.m; sourceTree = "<group>"; };
+		541BEEAB19C9F4DF001D6971 /* BNLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLLoginViewController.h; sourceTree = "<group>"; };
+		541BEEAC19C9F4DF001D6971 /* BNLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLLoginViewController.m; sourceTree = "<group>"; };
+		541BEEAF19CA02D1001D6971 /* BNLActiveLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLActiveLogViewController.h; sourceTree = "<group>"; };
+		541BEEB019CA02D1001D6971 /* BNLActiveLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLActiveLogViewController.m; sourceTree = "<group>"; };
+		541BEEB219CA0303001D6971 /* BNLKeyLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLKeyLogViewController.h; sourceTree = "<group>"; };
+		541BEEB319CA0303001D6971 /* BNLKeyLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLKeyLogViewController.m; sourceTree = "<group>"; };
+		541BEEB519CA0329001D6971 /* BNLSubjectLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLSubjectLogViewController.h; sourceTree = "<group>"; };
+		541BEEB619CA0329001D6971 /* BNLSubjectLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLSubjectLogViewController.m; sourceTree = "<group>"; };
+		541BEEB819CB7D14001D6971 /* BNLLoginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLLoginData.h; sourceTree = "<group>"; };
+		541BEEB919CB7D14001D6971 /* BNLLoginData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLLoginData.m; sourceTree = "<group>"; };
+		541BEEBC19CB7ED3001D6971 /* BNLActiveLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLActiveLogData.h; sourceTree = "<group>"; };
+		541BEEBD19CB7ED3001D6971 /* BNLActiveLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLActiveLogData.m; sourceTree = "<group>"; };
+		541BEEBF19CB7EFF001D6971 /* BNLKeyLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLKeyLogData.h; sourceTree = "<group>"; };
+		541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLKeyLogData.m; sourceTree = "<group>"; };
+		541BEEC219CB7F27001D6971 /* BNLSubjectLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLSubjectLogData.h; sourceTree = "<group>"; };
+		541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLSubjectLogData.m; sourceTree = "<group>"; };
+		5446388919E433620065DF2E /* BNLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLTabBarController.h; sourceTree = "<group>"; };
+		5446388A19E433620065DF2E /* BNLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLTabBarController.m; sourceTree = "<group>"; };
+		545D1B5919D4B13C001612C2 /* BNLActiveLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLActiveLogCell.h; sourceTree = "<group>"; };
+		545D1B5A19D4B13C001612C2 /* BNLActiveLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLActiveLogCell.m; sourceTree = "<group>"; };
+		545D1B5C19D4B1BE001612C2 /* BNLKeyLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLKeyLogCell.h; sourceTree = "<group>"; };
+		545D1B5D19D4B1BE001612C2 /* BNLKeyLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLKeyLogCell.m; sourceTree = "<group>"; };
+		545D1B5F19D4B1E4001612C2 /* BNLSubjectLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLSubjectLogCell.h; sourceTree = "<group>"; };
+		545D1B6019D4B1E4001612C2 /* BNLSubjectLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLSubjectLogCell.m; sourceTree = "<group>"; };
+		549DE55A19DDE931001872CB /* BNLRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLRecord.h; sourceTree = "<group>"; };
+		549DE55B19DDE931001872CB /* BNLRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLRecord.m; sourceTree = "<group>"; };
+		549DE55D19DDEABE001872CB /* ActiveLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveLog.h; sourceTree = "<group>"; };
+		549DE55E19DDEABE001872CB /* ActiveLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveLog.m; sourceTree = "<group>"; };
+		549DE56019DDEABF001872CB /* KeyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyLog.h; sourceTree = "<group>"; };
+		549DE56119DDEABF001872CB /* KeyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyLog.m; sourceTree = "<group>"; };
+		549DE56319DDEABF001872CB /* SubjectLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectLog.h; sourceTree = "<group>"; };
+		549DE56419DDEABF001872CB /* SubjectLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectLog.m; sourceTree = "<group>"; };
+		549DE56619DDEABF001872CB /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		549DE56719DDEABF001872CB /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		549DE56A19DDF41C001872CB /* BNLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLSessionManager.h; sourceTree = "<group>"; };
+		549DE56B19DDF41C001872CB /* BNLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLSessionManager.m; sourceTree = "<group>"; };
+		54A0DB2A19DB44740001ACCF /* AFMMRecordResponseSerializer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFMMRecordResponseSerializer; sourceTree = "<group>"; };
+		54A0DB2D19DB47AA0001ACCF /* BNLDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BNLDataModel.xcdatamodel; sourceTree = "<group>"; };
+		54A0DB2F19DC529B0001ACCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54A4F97D19DEFC7E009D457A /* libPods-MagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MagicalRecord.a"; path = "Pods/build/Debug-iphoneos/libPods-MagicalRecord.a"; sourceTree = "<group>"; };
+		54F1978D19DF31C90046F998 /* BNLMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLMenuViewController.h; sourceTree = "<group>"; };
+		54F1978E19DF31C90046F998 /* BNLMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLMenuViewController.m; sourceTree = "<group>"; };
+		8E8148F973F83D4BD9408F8A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B6FE749F58E4A93446D6EECA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BBED4391DD68EAB9807943BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +125,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A0DB3019DC529B0001ACCF /* CoreData.framework in Frameworks */,
 				541BEE7319C9F375001D6971 /* CoreGraphics.framework in Frameworks */,
 				541BEE7519C9F375001D6971 /* UIKit.framework in Frameworks */,
 				541BEE7119C9F375001D6971 /* Foundation.framework in Frameworks */,
+				EBCE75AC1FC269DE905B3772 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +153,7 @@
 				541BEE9819C9F375001D6971 /* BNLogic LiveTests */,
 				541BEE6F19C9F375001D6971 /* Frameworks */,
 				541BEE6E19C9F375001D6971 /* Products */,
+				A971E47835BBF5836B4D29DE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +169,14 @@
 		541BEE6F19C9F375001D6971 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54A4F97D19DEFC7E009D457A /* libPods-MagicalRecord.a */,
+				54A0DB2F19DC529B0001ACCF /* CoreData.framework */,
+				54A0DB2919DB44220001ACCF /* Vendor */,
 				541BEE7019C9F375001D6971 /* Foundation.framework */,
 				541BEE7219C9F375001D6971 /* CoreGraphics.framework */,
 				541BEE7419C9F375001D6971 /* UIKit.framework */,
 				541BEE9219C9F375001D6971 /* XCTest.framework */,
+				BBED4391DD68EAB9807943BB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +187,15 @@
 				541BEE7F19C9F375001D6971 /* BNLAppDelegate.h */,
 				541BEE8019C9F375001D6971 /* BNLAppDelegate.m */,
 				541BEE8219C9F375001D6971 /* Main.storyboard */,
-				541BEE8519C9F375001D6971 /* BNLFirstViewController.h */,
-				541BEE8619C9F375001D6971 /* BNLFirstViewController.m */,
-				541BEE8819C9F375001D6971 /* BNLSecondViewController.h */,
-				541BEE8919C9F375001D6971 /* BNLSecondViewController.m */,
+				5446388919E433620065DF2E /* BNLTabBarController.h */,
+				5446388A19E433620065DF2E /* BNLTabBarController.m */,
+				541BEEBB19CB7D26001D6971 /* model */,
+				549DE56919DDF325001872CB /* API */,
+				541BEEAE19C9F8D5001D6971 /* login */,
+				54A015FA19E312E50029A905 /* menuBar */,
+				541BEEC519CB7FFC001D6971 /* activeLog */,
+				541BEEC619CB802A001D6971 /* keyLog */,
+				541BEEC719CB8045001D6971 /* subjectLog */,
 				541BEE8B19C9F375001D6971 /* Images.xcassets */,
 				541BEE7719C9F375001D6971 /* Supporting Files */,
 			);
@@ -157,6 +231,109 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		541BEEAE19C9F8D5001D6971 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				541BEEAB19C9F4DF001D6971 /* BNLLoginViewController.h */,
+				541BEEAC19C9F4DF001D6971 /* BNLLoginViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		541BEEBB19CB7D26001D6971 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				54A0DB2C19DB47AA0001ACCF /* BNLDataModel.xcdatamodeld */,
+				549DE55A19DDE931001872CB /* BNLRecord.h */,
+				549DE55B19DDE931001872CB /* BNLRecord.m */,
+				549DE56619DDEABF001872CB /* Login.h */,
+				549DE56719DDEABF001872CB /* Login.m */,
+				549DE56319DDEABF001872CB /* SubjectLog.h */,
+				549DE56419DDEABF001872CB /* SubjectLog.m */,
+				549DE56019DDEABF001872CB /* KeyLog.h */,
+				549DE56119DDEABF001872CB /* KeyLog.m */,
+				549DE55D19DDEABE001872CB /* ActiveLog.h */,
+				549DE55E19DDEABE001872CB /* ActiveLog.m */,
+				541BEEB819CB7D14001D6971 /* BNLLoginData.h */,
+				541BEEB919CB7D14001D6971 /* BNLLoginData.m */,
+				541BEEBC19CB7ED3001D6971 /* BNLActiveLogData.h */,
+				541BEEBD19CB7ED3001D6971 /* BNLActiveLogData.m */,
+				541BEEBF19CB7EFF001D6971 /* BNLKeyLogData.h */,
+				541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */,
+				541BEEC219CB7F27001D6971 /* BNLSubjectLogData.h */,
+				541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		541BEEC519CB7FFC001D6971 /* activeLog */ = {
+			isa = PBXGroup;
+			children = (
+				541BEEAF19CA02D1001D6971 /* BNLActiveLogViewController.h */,
+				541BEEB019CA02D1001D6971 /* BNLActiveLogViewController.m */,
+				545D1B5919D4B13C001612C2 /* BNLActiveLogCell.h */,
+				545D1B5A19D4B13C001612C2 /* BNLActiveLogCell.m */,
+			);
+			name = activeLog;
+			sourceTree = "<group>";
+		};
+		541BEEC619CB802A001D6971 /* keyLog */ = {
+			isa = PBXGroup;
+			children = (
+				541BEEB219CA0303001D6971 /* BNLKeyLogViewController.h */,
+				541BEEB319CA0303001D6971 /* BNLKeyLogViewController.m */,
+				545D1B5C19D4B1BE001612C2 /* BNLKeyLogCell.h */,
+				545D1B5D19D4B1BE001612C2 /* BNLKeyLogCell.m */,
+			);
+			name = keyLog;
+			sourceTree = "<group>";
+		};
+		541BEEC719CB8045001D6971 /* subjectLog */ = {
+			isa = PBXGroup;
+			children = (
+				541BEEB519CA0329001D6971 /* BNLSubjectLogViewController.h */,
+				541BEEB619CA0329001D6971 /* BNLSubjectLogViewController.m */,
+				545D1B5F19D4B1E4001612C2 /* BNLSubjectLogCell.h */,
+				545D1B6019D4B1E4001612C2 /* BNLSubjectLogCell.m */,
+			);
+			name = subjectLog;
+			sourceTree = "<group>";
+		};
+		549DE56919DDF325001872CB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				549DE56A19DDF41C001872CB /* BNLSessionManager.h */,
+				549DE56B19DDF41C001872CB /* BNLSessionManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		54A015FA19E312E50029A905 /* menuBar */ = {
+			isa = PBXGroup;
+			children = (
+				54F1978D19DF31C90046F998 /* BNLMenuViewController.h */,
+				54F1978E19DF31C90046F998 /* BNLMenuViewController.m */,
+			);
+			name = menuBar;
+			sourceTree = "<group>";
+		};
+		54A0DB2919DB44220001ACCF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				54A0DB2A19DB44740001ACCF /* AFMMRecordResponseSerializer */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		A971E47835BBF5836B4D29DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6FE749F58E4A93446D6EECA /* Pods.debug.xcconfig */,
+				8E8148F973F83D4BD9408F8A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 541BEEA219C9F375001D6971 /* Build configuration list for PBXNativeTarget "BNLogic Live" */;
 			buildPhases = (
+				99B8DE46CC36DA63AD2AD2CB /* Check Pods Manifest.lock */,
 				541BEE6919C9F375001D6971 /* Sources */,
 				541BEE6A19C9F375001D6971 /* Frameworks */,
 				541BEE6B19C9F375001D6971 /* Resources */,
+				A1457AE95AACC753C28F3F4C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				541BEE8C19C9F375001D6971 /* Images.xcassets in Resources */,
+				54A0DB2B19DB44740001ACCF /* AFMMRecordResponseSerializer in Resources */,
 				541BEE7B19C9F375001D6971 /* InfoPlist.strings in Resources */,
 				541BEE8419C9F375001D6971 /* Main.storyboard in Resources */,
 			);
@@ -250,15 +430,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99B8DE46CC36DA63AD2AD2CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1457AE95AACC753C28F3F4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		541BEE6919C9F375001D6971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545D1B6119D4B1E4001612C2 /* BNLSubjectLogCell.m in Sources */,
+				549DE56C19DDF41C001872CB /* BNLSessionManager.m in Sources */,
+				541BEEC119CB7EFF001D6971 /* BNLKeyLogData.m in Sources */,
+				545D1B5B19D4B13C001612C2 /* BNLActiveLogCell.m in Sources */,
+				549DE56519DDEABF001872CB /* SubjectLog.m in Sources */,
 				541BEE7D19C9F375001D6971 /* main.m in Sources */,
+				549DE56219DDEABF001872CB /* KeyLog.m in Sources */,
+				549DE55F19DDEABE001872CB /* ActiveLog.m in Sources */,
+				541BEEBE19CB7ED3001D6971 /* BNLActiveLogData.m in Sources */,
 				541BEE8119C9F375001D6971 /* BNLAppDelegate.m in Sources */,
-				541BEE8719C9F375001D6971 /* BNLFirstViewController.m in Sources */,
-				541BEE8A19C9F375001D6971 /* BNLSecondViewController.m in Sources */,
+				541BEEB419CA0303001D6971 /* BNLKeyLogViewController.m in Sources */,
+				541BEEAD19C9F4DF001D6971 /* BNLLoginViewController.m in Sources */,
+				5446388B19E433620065DF2E /* BNLTabBarController.m in Sources */,
+				549DE55C19DDE931001872CB /* BNLRecord.m in Sources */,
+				541BEEBA19CB7D14001D6971 /* BNLLoginData.m in Sources */,
+				54F1978F19DF31C90046F998 /* BNLMenuViewController.m in Sources */,
+				541BEEB719CA0329001D6971 /* BNLSubjectLogViewController.m in Sources */,
+				545D1B5E19D4B1BE001612C2 /* BNLKeyLogCell.m in Sources */,
+				541BEEC419CB7F27001D6971 /* BNLSubjectLogData.m in Sources */,
+				54A0DB2E19DB47AA0001ACCF /* BNLDataModel.xcdatamodeld in Sources */,
+				541BEEB119CA02D1001D6971 /* BNLActiveLogViewController.m in Sources */,
+				549DE56819DDEABF001872CB /* Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +611,17 @@
 		};
 		541BEEA319C9F375001D6971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FE749F58E4A93446D6EECA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BNLogic Live/BNLogic Live-Prefix.pch";
 				INFOPLIST_FILE = "BNLogic Live/BNLogic Live-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,12 +629,17 @@
 		};
 		541BEEA419C9F375001D6971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8148F973F83D4BD9408F8A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BNLogic Live/BNLogic Live-Prefix.pch";
 				INFOPLIST_FILE = "BNLogic Live/BNLogic Live-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +704,7 @@
 				541BEEA419C9F375001D6971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541BEEA519C9F375001D6971 /* Build configuration list for PBXNativeTarget "BNLogic LiveTests" */ = {
 			isa = XCConfigurationList;
@@ -471,8 +713,22 @@
 				541BEEA719C9F375001D6971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54A0DB2C19DB47AA0001ACCF /* BNLDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54A0DB2D19DB47AA0001ACCF /* BNLDataModel.xcdatamodel */,
+			);
+			currentVersion = 54A0DB2D19DB47AA0001ACCF /* BNLDataModel.xcdatamodel */;
+			path = BNLDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 541BEE6519C9F375001D6971 /* Project object */;
 }
