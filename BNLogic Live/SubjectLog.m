@@ -20,4 +20,9 @@
 @dynamic total;
 @dynamic id;
 
+
++ (NSString *)keyPathForResponseObject{
+    
+    return @"response.subjectlog";
+}
 @end

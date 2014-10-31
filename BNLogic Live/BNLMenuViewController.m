@@ -7,10 +7,13 @@
 //
 
 #import "BNLMenuViewController.h"
+#import "BNLAppDelegate.h"
+#import "BNLTabBarController.h"
 
 @interface BNLMenuViewController ()
 
 @property (strong, nonatomic) NSMutableArray *menuViewControllers;
+@property (strong, nonatomic) UINavigationController *listNavigationViewController;
 
 @end
 
@@ -21,12 +24,19 @@
     // Do any additional setup after loading the view.
     self.menuTableView.dataSource = self;
     self.menuTableView.delegate = self;
+
+    if(!self.menuViewControllers){
+        self.menuViewControllers =[[NSMutableArray alloc] initWithCapacity:3];
+    }
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-
-
-
+    if (!self.listNavigationViewController){
+        MMDrawerController *drawController = [self drawControllerFromAppDelegate];
+        self.listNavigationViewController = (UINavigationController *)drawController.centerViewController;
+        [self.menuViewControllers addObject:self.listNavigationViewController];
+    }
+    [self.menuTableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,6 +54,11 @@
 }
 */
 
+- (MMDrawerController *) drawControllerFromAppDelegate {
+    BNLAppDelegate *appDelegate = ((BNLAppDelegate *)[[UIApplication sharedApplication] delegate]);
+    return appDelegate.drawController;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return [self.menuViewControllers count];
 }
@@ -55,8 +70,21 @@
     if (!cell){
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    
+    if (indexPath.row == 0){
+        cell.imageView.image = [UIImage imageNamed:@"home.png"];
+        cell.textLabel.text = @"Home";
+    }
     return cell;
 }
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
+    MMDrawerController *drawController = [self drawControllerFromAppDelegate];
+    [drawController setCenterViewController:self.menuViewControllers[indexPath.row] withCloseAnimation:YES completion:nil];
+}
+
+
+
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation BNLSessionManager
 
-static NSString *const BNLBasicURLString = @"http://208.72.178.132/api/";
+static NSString *const BNLBasicURLString = @"http://208.72.178.132/api/index_json.php";
 
 +(instancetype)sharedClient{
     static BNLSessionManager *_sharedClient = nil;

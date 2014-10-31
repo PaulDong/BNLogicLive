@@ -23,4 +23,9 @@
 @dynamic whitelistsender;
 @dynamic id;
 
++ (NSString *)keyPathForResponseObject{
+    
+    return @"response.keylog";
+}
+
 @end

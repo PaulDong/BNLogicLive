@@ -22,4 +22,9 @@
 @dynamic whitelistsender;
 @dynamic id;
 
++ (NSString *)keyPathForResponseObject{
+    
+    return @"response.activelog";
+}
+
 @end

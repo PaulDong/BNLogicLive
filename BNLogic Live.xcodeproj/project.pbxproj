@@ -28,6 +28,7 @@
 		541BEEBE19CB7ED3001D6971 /* BNLActiveLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEBD19CB7ED3001D6971 /* BNLActiveLogData.m */; };
 		541BEEC119CB7EFF001D6971 /* BNLKeyLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */; };
 		541BEEC419CB7F27001D6971 /* BNLSubjectLogData.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */; };
+		5441BFFD19F95C66002008C7 /* BNLCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441BFFC19F95C66002008C7 /* BNLCoreDataHelper.m */; };
 		5446388B19E433620065DF2E /* BNLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5446388A19E433620065DF2E /* BNLTabBarController.m */; };
 		545D1B5B19D4B13C001612C2 /* BNLActiveLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D1B5A19D4B13C001612C2 /* BNLActiveLogCell.m */; };
 		545D1B5E19D4B1BE001612C2 /* BNLKeyLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D1B5D19D4B1BE001612C2 /* BNLKeyLogCell.m */; };
@@ -89,6 +90,8 @@
 		541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLKeyLogData.m; sourceTree = "<group>"; };
 		541BEEC219CB7F27001D6971 /* BNLSubjectLogData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLSubjectLogData.h; sourceTree = "<group>"; };
 		541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLSubjectLogData.m; sourceTree = "<group>"; };
+		5441BFFB19F95C66002008C7 /* BNLCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLCoreDataHelper.h; sourceTree = "<group>"; };
+		5441BFFC19F95C66002008C7 /* BNLCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLCoreDataHelper.m; sourceTree = "<group>"; };
 		5446388919E433620065DF2E /* BNLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLTabBarController.h; sourceTree = "<group>"; };
 		5446388A19E433620065DF2E /* BNLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLTabBarController.m; sourceTree = "<group>"; };
 		545D1B5919D4B13C001612C2 /* BNLActiveLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLActiveLogCell.h; sourceTree = "<group>"; };
@@ -262,6 +265,8 @@
 				541BEEC019CB7EFF001D6971 /* BNLKeyLogData.m */,
 				541BEEC219CB7F27001D6971 /* BNLSubjectLogData.h */,
 				541BEEC319CB7F27001D6971 /* BNLSubjectLogData.m */,
+				5441BFFB19F95C66002008C7 /* BNLCoreDataHelper.h */,
+				5441BFFC19F95C66002008C7 /* BNLCoreDataHelper.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				549DE56C19DDF41C001872CB /* BNLSessionManager.m in Sources */,
 				541BEEC119CB7EFF001D6971 /* BNLKeyLogData.m in Sources */,
 				545D1B5B19D4B13C001612C2 /* BNLActiveLogCell.m in Sources */,
+				5441BFFD19F95C66002008C7 /* BNLCoreDataHelper.m in Sources */,
 				549DE56519DDEABF001872CB /* SubjectLog.m in Sources */,
 				541BEE7D19C9F375001D6971 /* main.m in Sources */,
 				549DE56219DDEABF001872CB /* KeyLog.m in Sources */,

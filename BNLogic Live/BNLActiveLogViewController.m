@@ -7,6 +7,8 @@
 //
 
 #import "BNLActiveLogViewController.h"
+#import "ActiveLog.h"
+#import "BNLCoreDataHelper.h"
 #import "BNLActiveLogData.h"
 #import "BNLActiveLogCell.h"
 
@@ -28,6 +30,11 @@
         // Custom initialization
     }
     return self;
+}
+
+-(NSMutableArray *) activelogArray {
+    if(!_activelogArray) _activelogArray = [[NSMutableArray alloc] init];
+    return _activelogArray;
 }
 
 - (void)viewDidLoad
@@ -62,10 +69,18 @@
     log3.score = 1.38;
     log3.subject = @"Offre d'emploi (coordonnateur)";
     log3.total = 501;
-    if(!_activelogArray){
-        self.activelogArray = [[NSMutableArray alloc] init];
-    }
     self.activelogArray = [@[log1, log2, log3] mutableCopy];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"ActiveLog"];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"total" ascending:NO]];
+
+    NSError *error = nil;
+    NSArray *fetchedActiveLogs = [[BNLCoreDataHelper managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+    self.activelogArray = [fetchedActiveLogs mutableCopy];
+    [self.activeTableView reloadData];
 }
 
 - (void)viewDidDisappear:(BOOL)animated{
@@ -112,6 +127,24 @@
     return cell;
 }
 
+#pragma Helper Methods
+
+- (ActiveLog *)storeActiveLog:(BNLActiveLogData *)data
+
+{
+
+    NSManagedObjectContext *context = [BNLCoreDataHelper managedObjectContext];
+
+    ActiveLog *activeLog = [NSEntityDescription insertNewObjectForEntityForName:@"ActiveLog" inManagedObjectContext:context];
+
+    activeLog.sendDomain = data.sendDomain;
+    activeLog.date = data.date;
+    NSError *error = nil;
+    if (![context save:&error]) {
+        NSLog(@"%@", error);
+    }
+    return activeLog;
+}
 
 /*
 #pragma mark - Navigation
@@ -131,6 +164,8 @@
 }
 
 - (void)checkUpdate {
-
+//    [self.activelogArray addObject:[self storeActiveLog:data]];
+    
+    [self.activeTableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:[self.activelogArray count]-1 inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
 }
 @end

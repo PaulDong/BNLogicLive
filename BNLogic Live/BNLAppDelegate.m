@@ -31,6 +31,7 @@
     [self.drawController setDrawerVisualStateBlock:[MMDrawerVisualState slideAndScaleVisualStateBlock]];
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setRootViewController:self.drawController];
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"BNLData"];
     return YES;
 }
 

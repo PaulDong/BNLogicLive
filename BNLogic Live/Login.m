@@ -14,4 +14,8 @@
 @dynamic password;
 @dynamic userName;
 
++ (NSString *)keyPathForResponseObject{
+    
+    return @"response.login";
+}
 @end
